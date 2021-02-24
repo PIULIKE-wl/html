@@ -1,0 +1,940 @@
+* {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+li {
+    list-style: none;
+}
+.db{
+    height: 32px;
+    border-bottom: 1px solid #ebebeb;
+}
+.db ul{
+    float: right;
+    text-align: center;
+}
+.db ul li {
+    float: left;
+}
+.db1{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 22px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+}
+.db2{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 22px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #333;
+}
+.db ul li b {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 22px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+}
+.header{
+    height: 104px;
+    text-align: center;
+}
+.header div{
+    height: 104px;
+    width: 950px;
+    text-align: center;
+    margin: 0 auto;
+}
+.header2{
+    float: left;
+    width: 518px;
+    height: 28px;
+    margin-top: 32px;
+    margin-left: 25px;
+    padding: 6px 8px 4px;
+    border:1px solid #666;
+}
+.header3-1{
+    float: left;
+    width: 104px;
+    height: 40px;
+    margin-top: 32px;
+    margin-right: 4px;
+    color: floralwhite;
+    background-color:rgb(66, 124, 250);
+    border:1px solid rgb(66, 124, 250);
+    font-size: 16px;
+}
+.header3-2{
+    float: left;
+    width: 104px;
+    height: 40px;
+    margin-top: 32px;
+    color: rgb(66, 124, 250);
+    background-color:#fff;
+    border:1px solid rgb(66, 124, 250);
+    font-size: 16px;
+}
+.daohang {
+    position: relative;
+    height: 43px;
+    background-color:#459df5;
+}
+.daohang1{
+    position: absolute;
+    height: 274px;
+    width: 100%;
+    background-color: rgba(69, 157, 245,.9);
+}
+.daohang2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -570px;
+    height: 100%;
+    width: 1139px;
+    background-color:  rgba(69, 157, 245,.1);
+}
+.daohang2 dl{
+    width: 104px;
+    height: 100%;
+    float: left;
+    columns: #f5f5f5;
+}
+.daohang2 dt{
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1;
+}
+.daohang2 dd div{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1;
+}
+.daohang2 dd a{
+    text-decoration: none;
+    color: #a2c9f0;
+}
+.daohang2 dt a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.daohang2 dd a:hover{
+    color: #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+}
+.daohang2 .daohang2-1{
+    width: 134px;
+}
+.daohang2 .daohang2-2{
+    position: absolute;
+    right: 0;
+    margin: 10px 0;
+    height: 24px;
+}
+.daohang2-2 span{
+    padding: 0 15px;
+}
+.daohang2-2 span a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #f5f5f5;
+}
+.daohang2-2 img{
+    vertical-align: bottom;
+}
+.daohang2 dl:hover{
+    background-color: #4591dd;
+}
+.daohang2 dd{
+    display: none;
+}
+.daohang2 dl:hover dd{
+    display: block;
+    background-color: rgb(5, 60, 116);
+}
+.zhuti{
+    /* border-top: 1px solid rgb(66, 124, 250); */
+    overflow: hidden;
+    width: 1920px;
+    margin: 0 auto;
+    background: #f5f5f5 url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/resource/img/bg-isScience_521f2a1.png) no-repeat center 0;
+}
+.trduction{
+    width: 1137px;
+    margin: 242px 220px 10px;
+    background-color:#fff;
+    border: 1px solid #e5e5e5;
+
+}
+.t{
+    float: right;
+}
+.t a{
+    border-right: 1px solid #ccd2d8;
+    padding: 0 8px;
+}
+.cl{ 
+    float: right;
+    width: 270px;
+    margin-top: 29px;
+    margin-right: 18px;
+} 
+.cl1{
+    width: 268px;
+    border: solid 1px #DDD;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.cl2{
+    width: 268px;
+    border: solid 1px #cbdae7;
+    margin: 20px 0;
+    background: #fafcfe;
+    color: #333;
+    font-family: 'Microsoft Yahei';
+}
+.cl2-1{
+    background: #f4f9fd url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/professional/images/professional-title-bg_a1d6f07.png) repeat-x left bottom;
+    padding: 15px 15px 15px 20px;
+}
+.cl2-1 div{
+    background-image: url(https://bkimg.cdn.bcebos.com/pic/b3119313b07eca8035a902c8982397dda1448374?x-bce-process=image/resize,m_lfit,w_50,limit_1/format,f_auto);
+    padding-left: 60px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+.cl2-1 div h2{
+    font-size: 20px;
+    line-height: 21px;
+    padding-bottom: 6px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cl2-1 div p{
+    color: #7f8d9b;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cl2-2{
+    padding: 15px 13px;
+}
+.cl2-2-2{
+    height: 61px;
+}
+.cl2-2-2x{
+    padding: 12px 0;
+}
+.cl2-2-2xx{
+    border-left: 4px solid #a1ccf7;
+    font-size: 12px;
+    width: 228px;
+    padding-left: 10px;
+}
+.cl2-2-2xx h4{
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+}
+.cl2-2-2xx span{
+    color: #9a9a9b;
+    border-left: #e2e2e2 solid 1px;
+    margin: 1px 0 0 9px;
+    padding-left: 9px;
+    line-height: 14px;
+}
+.cl2-2-2xx i{
+    float: right;
+    color: #888;
+    height: 13px;
+    line-height: 13px;
+    border: #dbdbdb solid 1px;
+    padding: 0 4px;
+    margin-top: 1px;
+    font-style: normal;
+    border-radius: 2px;
+}
+.cl2-2-2x p{
+    border-left: 4px solid #a1ccf7;
+    width: 228px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #9a9a9b;
+    line-height: 1.6;
+    padding-top: 2px;
+}
+.cl2-2-1{
+    width: 112px;
+    height: 19px;
+}
+.cl2-2-1 h3{
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.cl3{
+    margin-bottom: 10px;
+    border: 1px solid #e6e6e6;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+    background: #fcfcfc;
+}
+.cl3-1{
+    padding: 10px 14px 0;
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #555;
+    font-family: arial;
+    font-weight: 700;
+}
+.cl3-1 a{
+    float: right;
+    color: #666;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: 400;
+    text-decoration: none;
+}
+.cl4{
+    margin-bottom: 10px;
+}
+.cl5{
+    margin-top: 10px;
+    border: 1px solid #e6e6e6;
+    width: 239px;
+    height: 190px;
+    padding: 12px 15px;
+    background: #fcfcfc;
+}
+.cl5 dl dt{
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 10px;
+}
+.cl5-1{
+    height: 121px;
+}
+.cl5-1-1{
+    width: 54px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    display: block;
+}
+.cl5-1-1 a{
+    text-decoration: none;
+    width: 53px;
+    height: 53px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.cl5-1-2{
+    width: 170px;
+    float: left;
+    padding-left: 13px;
+    line-height: 22px;
+}
+.cl5-1-2 p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cl5-1-2 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #136ec2;
+}
+.cl5-1-2 span{
+    font-size: 12px;
+    color: #999;
+}
+.cl5-2{
+    line-height: 22px;
+    margin-top: 15px;
+}
+.cl5-2-1{
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/sideAuth/img/lemma-top_9de0a06.gif) 0 -130px no-repeat;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.cl5-2-2{
+    text-decoration: none;
+    color: #136ec2;
+    font-size: 12px;
+}
+.cl5-2-3{
+    width: 1px;
+    height: 10px;
+    background: #f1f1f1;
+    margin: 4px 10px 0;
+}
+.cl5-2-4{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+.cl6{
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 14px 14px;
+    border: 1px solid #e6e6e6;
+    background: #fcfcfc;
+    line-height: 22px;
+    color: #555;
+}
+.cl6-1{
+    font-family: arial;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 4px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    color: #555;
+}
+.cl6-2{
+    font-size: 12px;
+    color: #555;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 6px;
+}
+.cl6-3{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    color: #555;
+}
+.cl6-4-1{
+    font-size: 12px;
+    text-decoration: none;
+    color: #666;
+}
+.cl6-4-2{
+    float: right;
+}
+.cl6-4-2 a img{
+    height: 15px;
+}
+.cl6-4-1:hover{
+    text-decoration: underline;
+}
+.cl1 a{
+    text-decoration: none;
+}
+.cl1 div{
+    padding: 8px 5px 8px 14px;
+    box-shadow: 0 -1px 1px #ddd;
+    line-height: 23px;
+    font-size: 16px;
+    text-indent: 30px;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+    color: #333;
+    text-decoration: none;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/summaryPicture/resource/img/icon_ec5bee4.png) 15px 10px no-repeat;
+}
+
+.article{
+    display: inline-block;
+    width: 790px;
+    height: 5751.640px;
+    padding: 29px 29px;
+}
+.article h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.article1-1{
+    font-size: 13px;
+    padding: 15px 0;
+}
+.artical1-1 img{
+    vertical-align: bottom;
+}
+.article1-1 a{
+    text-decoration: none;
+    color: #136ec2;
+
+}
+.article1-2{
+    text-indent: 2em;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font:  14px/1.5 arial,'\5b8b\4f53',sans-serif;
+    color: #333;
+}
+.article1-2 a{
+    text-decoration: none;
+    color: #136ec2;
+}
+.article1-3{
+    width: 100%;
+    height: 78px;
+    margin: 20px 0 35px;
+}
+.article1-3 a{
+    text-decoration: none;
+    color: #136ec2;
+}
+.article1-3 dl{
+    width: 395px;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/basicInfo/img/basicInfo-bg_ccaff81.png);
+    float: left;
+}
+.article1-3 dt,
+.article1-3 dd{
+    font: 14px/1.5 arial,'\5b8b\4f53',sans-serif;
+    height: 26px;
+   float: left;
+}        
+.article1-3 dt{
+    line-height: 26px;
+    width: 90px;
+    padding: 0 5px 0 12px;
+}
+.article1-3 dd{
+    line-height: 26px;
+    width: 285px;
+}
+.mulux{
+    height: 162px;
+    margin: 35px 0;
+}
+.mulu{
+    float: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fbfbfb;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+}
+.mulu1{
+    float: left;
+    margin: 22px 0 0 20px;
+    width: 62px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 400;
+}       
+.mulu1-2{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.mulu1-2 ol{
+    float: left;
+    width: 175px;
+    border-left: 1px solid #f5f5f5;
+}
+.level1{
+    height: 28px;
+    line-height: 28px;
+}        
+.level1-2{
+    display: inline-block;
+    width: 18px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 8px;
+    vertical-align: top;
+    text-align: right;
+    color: #63a0df;
+}
+.level1-3 a{
+    display: inline-block;
+    color: #136ec2;
+}
+.level2{
+    height: 21px;
+    line-height: 21px;
+}
+.level2-2{
+    display: inline-block;
+    padding-left: 41px;
+    padding-right: 5px;
+    width: 5px;
+    line-height: 16px;
+    font-size: 12px;
+    vertical-align: top;
+    color: #ccc;
+}
+.level2-3 a{
+    display: inline-block;
+    color: #333;
+    line-height: 16px;
+    font-size: 12px;
+}
+.mulu1-2 ol li span a{
+    text-decoration: none;
+}
+.mulu1-2 ol li span a:hover{
+    text-decoration: underline;
+}
+.divide{
+    height: 24px;
+    border-left: 12px solid #4F9CEE;
+    line-height: 24px;
+    font-family: Microsoft YaHei,SimHei,Verdana;
+    margin: 35px 0 15px -30px;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/normal/resource/img/paraTitle-line_743dba1.png);
+}
+.divide h2{
+    float: left;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 8px 0 18px;
+    background: #fff;
+}
+.divide a{
+    float: right;
+} 
+.para-title{
+    margin: 20px 0 12px;
+    font-family: Microsoft YaHei,SimHei,Verdana;
+} 
+.para-title h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.para-titlex{
+    margin: 50px 0 12px;
+    font-family: Microsoft YaHei,SimHei,Verdana;
+} 
+.para-titlex h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list-ol{
+    margin: 0 0 15px 2em;
+}
+.list-ol li{
+    line-height: 24px;
+    font:  14px/1.5 arial,'\5b8b\4f53',sans-serif;
+    color: #333;
+}
+.list-ol div{
+    margin-left: 25px;
+}
+.list1::before{
+    content: '1. ';
+    position: absolute;
+    line-height: 24px;
+    font-size: 14px;
+}
+.list2::before{
+    content: '2. ';
+    position: absolute;
+    line-height: 24px;
+    font-size: 14px;
+}
+.list3::before{
+    content: '3. ';
+    position: absolute;
+    line-height: 24px;
+    font-size: 14px;
+}
+.list4::before{
+    content: '4. ';
+    position: absolute;
+    line-height: 24px;
+    font-size: 14px;
+}
+.list5::before{
+    content: '5. ';
+    position: absolute;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.i{
+    float: right;
+    margin-left: 20px;
+    border: 1px solid #e0e0e0;
+}
+.i img{
+    width: 220px;
+    height: 111.71875px;
+}
+.i span{
+    display: block;
+    color: rgb(85, 85, 85);
+    text-align: left;
+    font-size: 12px;
+    text-indent: 0px;
+    font-family: 宋体;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-style: normal;
+    line-height: 24px;
+    min-height: 12px;
+    padding: 8px 7px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+.table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+}
+.table td{
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+}
+.table th{
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+    background-color: #f8f8f8;
+}
+.table2{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table2-1-1{
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: 700;
+    width: 123px;
+    height: 23px;
+    background-color: #f8f8f8;
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+}
+.table2-1-2{
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: 700;
+    width: 341px;
+    height: 23px;
+    background-color: #f8f8f8;
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+}
+.table2-2-1{
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    width: 123px;
+    border: 1px solid #e6e6e6;
+}
+.table2-2-2{
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    width: 341px;
+    border: 1px solid #e6e6e6;
+}
+.table3-1 div{
+    font-size: 5px;
+    border-right: 3px solid #6ce26c!important;
+    color: #afafaf;
+}
+.dividex{
+    margin-top: 175px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #f5f5f5;
+    padding: 0 0 0 10px;
+    font-size: 19px;
+    font-family: Microsoft YaHei,sans-serif;
+}
+.it{
+    margin-top: 15px;
+}
+.ix{
+    border: 1px solid rgb(224, 224, 224);
+    width: 155px;
+}
+.ix img{
+    width: 155px;
+    height: 155px;
+}
+.ix span{
+    height: 24px;
+    width: 140px;
+    display: block;
+    color: rgb(85, 85, 85);
+    text-align: left;
+    font-size: 12px;
+    text-indent: 0px;
+    font-family: 宋体;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-style: normal;
+    line-height: 24px;
+    min-height: 12px;
+    padding: 8px 7px;
+    border: 1px solid rgb(224, 224, 224);
+}
+.line{
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.ck{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ck dt{
+    font-size: 19px;
+    line-height: 45px;
+    font-weight: 200;
+    font-family: 'Microsoft YaHei',sans-serif;
+    border-bottom: 2px solid #ccc;
+}
+.ck dd ul li{
+    color: #aaa;
+    line-height: 20px;
+    margin-top: 9px;
+    width: 100%;
+    font-size: 12px;
+}
+.find{
+    width: 100px;
+    height: 140px;
+    margin: 0px 220px;
+    background: #fff;
+    width: 1137px;
+    border: 1px solid #e5e5e5;
+}
+.find h6{
+    margin: 20px 0 0 30px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.2;
+}
+.find ul{
+    font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
+    margin-top: 5px;
+    padding: 0 25px 20px;
+}
+.find ul li{
+    float: left;
+    display: inline;
+    width: 195px;
+    margin: 6px 20px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #338ED6;
+}
+.find ul li a{
+    text-decoration: none;
+    color: #338ED6;
+    font-size: 14px;
+}
+.find ul li::before{
+    content: '';
+    background: #338ED6;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px 3px 0;
+}
+.last{
+    padding: 40px 0 10px;
+    font-size: 12px;
+    background: #f5f5f5;
+}
+.content{
+    margin: 0 400px;
+    height: 100px;
+    width: 780px;
+}
+.dl{
+    float: left;
+    padding: 0 35px 0 5px;
+    width: 210px;
+}
+.dl dt{
+    font-size: 20px;
+}
+.dl dd{
+    margin: 5px 0 0 30px;
+}
+.dl dd div{
+    float: left;
+    width: 90px;
+    margin-bottom: 5px;
+}
+.dl dd div a{
+    text-decoration: none;
+    color: #666;
+}
+.dl dd div a:hover{
+    color: #338de6;
+}
+.copy{
+    margin: 0 500px;
+}
+.copy a{
+    color: #338de6;
+    text-decoration: none;
+}
+.jing{
+    padding: 6px 670px;
+    height: 16px;
+    line-height: 16px;
+}     
+.jing a{
+    color: #338de6;
+    text-decoration: none;
+}      
+.jing a i{
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin-right: 6px;
+    background: url(https://bkssl.bdimg.com/static/wiki-common/widget/component/footer/img/icon-police_d8a40a4.png) 0 0 no-repeat;
+    vertical-align: middle;
+    margin-top: -4px;
+}
