@@ -6,6 +6,58 @@
 li {
     list-style: none;
 }
+sub{
+    position: relative;
+    top: -.5em;
+    margin-left: 2px;
+    color: #36c;
+}
+.a1{
+    position: relative;
+    top: -5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 6px 9px;
+    width: 60px;
+    border: solid 1px #e2e2e2;
+    border-radius: 3px;
+    outline: 0;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #666;
+}
+.a2{
+    position: relative;
+    top: -5px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 7px 9px 7px 3px;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #fff;
+    background-image: linear-gradient(
+12deg
+,#459df5 0,#b0d5fb 100%);
+}
+.a1:hover{
+    background-color: #459df5;
+    color: #fff;
+}
+.a2:hover{
+    background-color: #0e80f1;
+}
 .db{
     height: 32px;
     border-bottom: 1px solid #ebebeb;
@@ -212,7 +264,7 @@ li {
     padding: 15px 15px 15px 20px;
 }
 .cl2-1 div{
-    background-image: url(https://bkimg.cdn.bcebos.com/pic/b3119313b07eca8035a902c8982397dda1448374?x-bce-process=image/resize,m_lfit,w_50,limit_1/format,f_auto);
+    background-image: url(images/ddd.png);
     padding-left: 60px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -490,6 +542,9 @@ li {
     font:  14px/1.5 arial,'\5b8b\4f53',sans-serif;
     color: #333;
 }
+.article1-2 a:hover{
+    text-decoration: underline;
+}
 .article1-2 a{
     text-decoration: none;
     color: #136ec2;
@@ -636,6 +691,13 @@ li {
 
 .list-ol{
     margin: 0 0 15px 2em;
+}
+.list-ol li div a{
+    text-decoration: none;
+    color: #136ec2;
+}
+.list-ol li div a:hover{
+    text-decoration: underline;
 }
 .list-ol li{
     line-height: 24px;
@@ -850,6 +912,9 @@ li {
     font-weight: 400;
     font-size: 19px;
     line-height: 1.2;
+}
+.find ul li a:hover{
+    text-decoration: underline;
 }
 .find ul{
     font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
